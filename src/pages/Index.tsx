@@ -43,7 +43,7 @@ const Index = () => {
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center gap-2">
             <div className="text-3xl font-bold text-primary">Attikka</div>
-            <div className="text-sm text-muted-foreground hidden md:block">WPC Решения</div>
+            <div className="text-sm text-muted-foreground hidden md:block">Гидроизоляция кровли</div>
           </div>
           <nav className="hidden md:flex gap-6">
             <a href="#about" className="text-foreground hover:text-primary transition-colors font-medium">О материале</a>
@@ -101,32 +101,32 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="inline-block bg-accent/20 text-accent-foreground px-4 py-2 rounded-full text-sm font-semibold mb-6">
-                Premium WPC материал
+                Премиум гидроизоляция
               </div>
               <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-foreground">
-                Attikka WPC<br />
-                <span className="text-primary">Декинг нового поколения</span>
+                Attikka<br />
+                <span className="text-primary">Надёжная защита кровли</span>
               </h1>
               <p className="text-xl mb-8 text-muted-foreground">
-                Древесно-полимерный композит для террас, балконов и кровель. Красота натурального дерева с долговечностью пластика.
+                Профессиональные гидроизоляционные материалы для плоских и скатных кровель. Европейское качество, российские цены.
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center gap-2">
                   <Icon name="Award" size={20} className="text-primary" />
-                  <span className="font-medium">Гарантия 25 лет</span>
+                  <span className="font-medium">Гарантия 20 лет</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Icon name="Droplets" size={20} className="text-primary" />
-                  <span className="font-medium">100% водостойкость</span>
+                  <span className="font-medium">100% герметичность</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <Icon name="Leaf" size={20} className="text-primary" />
-                  <span className="font-medium">Экологично</span>
+                  <Icon name="Snowflake" size={20} className="text-primary" />
+                  <span className="font-medium">Морозостойкость</span>
                 </div>
               </div>
               <div className="flex gap-4">
                 <Button size="lg" className="bg-primary hover:bg-primary/90">
-                  <a href="#contact">Получить образцы</a>
+                  <a href="#contact">Получить расчёт</a>
                 </Button>
                 <Button size="lg" variant="outline">
                   <a href="#about">Узнать больше</a>
@@ -135,18 +135,18 @@ const Index = () => {
             </div>
             <div className="relative">
               <img
-                src="https://cdn.poehali.dev/projects/ad33fd48-d711-46bf-972d-edf7f51b4706/files/8e890c57-ceac-4d2d-934c-a1efe8c5d01d.jpg"
-                alt="Attikka WPC Декинг"
+                src="https://cdn.poehali.dev/projects/ad33fd48-d711-46bf-972d-edf7f51b4706/files/f698ed5f-a193-4cd3-800b-35a0ee53c40d.jpg"
+                alt="Гидроизоляция кровли Attikka"
                 className="rounded-2xl shadow-2xl w-full"
               />
               <div className="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-xl p-6 max-w-xs">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center">
-                    <Icon name="Star" size={24} className="text-accent fill-accent" />
+                    <Icon name="CheckCircle2" size={24} className="text-accent" />
                   </div>
                   <div>
-                    <div className="font-bold text-2xl">500+</div>
-                    <div className="text-sm text-muted-foreground">Реализованных проектов</div>
+                    <div className="font-bold text-2xl">15 000+</div>
+                    <div className="text-sm text-muted-foreground">м² гидроизоляции в месяц</div>
                   </div>
                 </div>
               </div>
@@ -158,27 +158,36 @@ const Index = () => {
       <section id="about" className="py-20 px-6 bg-white">
         <div className="container mx-auto">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Что такое Attikka WPC?</h2>
+            <h2 className="text-4xl font-bold mb-4">Что такое Attikka?</h2>
             <p className="text-lg text-muted-foreground">
-              Древесно-полимерный композит (WPC) — инновационный материал, объединяющий лучшие свойства дерева и полимеров
+              Современный битумно-полимерный материал для гидроизоляции кровель любой сложности
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://cdn.poehali.dev/projects/ad33fd48-d711-46bf-972d-edf7f51b4706/files/c378fbf4-71ec-4b60-bf2b-9d548d90dcb2.jpg"
-                alt="Текстура WPC"
+                src="https://cdn.poehali.dev/projects/ad33fd48-d711-46bf-972d-edf7f51b4706/files/722cb325-20be-4beb-a897-24e9ad8b0919.jpg"
+                alt="Материал Attikka"
                 className="rounded-2xl shadow-lg w-full"
               />
             </div>
             <div className="space-y-6">
               <div className="flex gap-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Icon name="Trees" size={24} className="text-primary" />
+                  <Icon name="Layers" size={24} className="text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-xl mb-2">60% древесная мука</h3>
-                  <p className="text-muted-foreground">Натуральная текстура и тёплая поверхность, приятная на ощупь</p>
+                  <h3 className="font-bold text-xl mb-2">Многослойная структура</h3>
+                  <p className="text-muted-foreground">Армированная основа из стеклохолста или полиэстера обеспечивает прочность и эластичность</p>
+                </div>
+              </div>
+              <div className="flex gap-4">
+                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Icon name="Droplet" size={24} className="text-primary" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-xl mb-2">СБС-модифицированный битум</h3>
+                  <p className="text-muted-foreground">Специальные полимеры повышают гибкость при низких температурах и теплостойкость</p>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -186,17 +195,8 @@ const Index = () => {
                   <Icon name="Shield" size={24} className="text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-xl mb-2">35% полимеры высокого качества</h3>
-                  <p className="text-muted-foreground">Защита от влаги, плесени, грибка и насекомых</p>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Icon name="Palette" size={24} className="text-primary" />
-                </div>
-                <div>
-                  <h3 className="font-bold text-xl mb-2">5% красители и добавки</h3>
-                  <p className="text-muted-foreground">Стойкий цвет, UV-защита, противоскользящие свойства</p>
+                  <h3 className="font-bold text-xl mb-2">Защитное покрытие</h3>
+                  <p className="text-muted-foreground">Минеральная посыпка защищает от UV-излучения и механических повреждений</p>
                 </div>
               </div>
             </div>
@@ -207,57 +207,57 @@ const Index = () => {
       <section id="features" className="py-20 px-6 bg-secondary/30">
         <div className="container mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Преимущества Attikka WPC</h2>
+            <h2 className="text-4xl font-bold mb-4">Преимущества Attikka</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Почему профессионалы и владельцы недвижимости выбирают наш материал
+              Почему строители и владельцы недвижимости выбирают нашу гидроизоляцию
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
                 icon: 'Droplets',
-                title: 'Абсолютная влагостойкость',
-                description: 'Не гниёт, не деформируется, не впитывает воду. Идеален для террас у бассейна и открытых площадок.',
-              },
-              {
-                icon: 'Sun',
-                title: 'UV-стойкость',
-                description: 'Специальные добавки защищают от выцветания. Сохраняет насыщенный цвет годами под прямыми лучами солнца.',
-              },
-              {
-                icon: 'Hammer',
-                title: 'Простой монтаж',
-                description: 'Легко пилится и сверлится. Скрытая система крепления. Не требует специального инструмента.',
-              },
-              {
-                icon: 'Paintbrush',
-                title: 'Без обслуживания',
-                description: 'Не нужно красить, шлифовать, пропитывать. Просто мойте водой — и терраса как новая.',
+                title: 'Абсолютная водонепроницаемость',
+                description: 'Водопоглощение менее 0,5% по массе. Надёжная защита от протечек даже при длительном контакте с водой.',
               },
               {
                 icon: 'Snowflake',
                 title: 'Морозостойкость',
-                description: 'Выдерживает температуры от -40°C до +60°C без трещин и деформаций.',
+                description: 'Сохраняет эластичность при температуре до -35°C. Не трескается при замерзании и оттаивании.',
+              },
+              {
+                icon: 'Flame',
+                title: 'Теплостойкость',
+                description: 'Выдерживает нагрев до +120°C без потери свойств. Подходит для жаркого климата.',
+              },
+              {
+                icon: 'Hammer',
+                title: 'Простой монтаж',
+                description: 'Укладка методом наплавления или механической фиксации. Высокая скорость работ — до 500 м² в смену.',
+              },
+              {
+                icon: 'Clock',
+                title: 'Долговечность',
+                description: 'Срок службы 20-30 лет без ремонта. Стабильные характеристики на протяжении всего периода эксплуатации.',
               },
               {
                 icon: 'ShieldCheck',
-                title: 'Безопасность',
-                description: 'Противоскользящая поверхность. Не образует сколов и заноз. Безопасен для детей и животных.',
+                title: 'Надёжность',
+                description: 'Армированная основа обеспечивает высокую прочность на разрыв. Устойчивость к проколам и механическим повреждениям.',
+              },
+              {
+                icon: 'BadgeCheck',
+                title: 'Сертификация',
+                description: 'Соответствует ГОСТ 30547-97 и европейским стандартам. Пожарные сертификаты и санитарно-эпидемиологические заключения.',
+              },
+              {
+                icon: 'Zap',
+                title: 'Универсальность',
+                description: 'Подходит для плоских и скатных кровель, фундаментов, подвалов. Любые климатические зоны России.',
               },
               {
                 icon: 'Leaf',
                 title: 'Экологичность',
-                description: 'Изготовлен из переработанной древесины и полимеров. Подлежит повторной переработке.',
-              },
-              {
-                icon: 'Bug',
-                title: 'Защита от вредителей',
-                description: 'Полимерная основа защищает от насекомых, плесени и грибка без химической обработки.',
-              },
-              {
-                icon: 'Palette',
-                title: 'Разнообразие цветов',
-                description: '8 натуральных оттенков: от светлого дуба до тёмного венге. Матовая и брашированная текстуры.',
+                description: 'Безопасен для здоровья. Не выделяет вредных веществ при эксплуатации.',
               },
             ].map((feature, index) => (
               <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-shadow bg-white">
@@ -280,10 +280,10 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             {[
-              { number: '25', label: 'Лет гарантии', icon: 'Award' },
-              { number: '500+', label: 'Проектов', icon: 'Building2' },
-              { number: '0', label: 'Обслуживания', icon: 'Wrench' },
-              { number: '100%', label: 'Водостойкость', icon: 'Droplet' },
+              { number: '20', label: 'Лет гарантии', icon: 'Award' },
+              { number: '500+', label: 'Объектов', icon: 'Building2' },
+              { number: '0.5%', label: 'Водопоглощение', icon: 'Droplet' },
+              { number: '-35°C', label: 'Морозостойкость', icon: 'Snowflake' },
             ].map((stat, index) => (
               <div key={index} className="space-y-2">
                 <Icon name={stat.icon} size={40} className="mx-auto mb-4 text-accent" />
@@ -300,31 +300,31 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Примеры реализованных проектов</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Террасы, балконы, кровельные настилы и коммерческие объекты по всей России
+              Промышленные, коммерческие и жилые объекты по всей России
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                image: 'https://cdn.poehali.dev/projects/ad33fd48-d711-46bf-972d-edf7f51b4706/files/8e890c57-ceac-4d2d-934c-a1efe8c5d01d.jpg',
-                title: 'Панорамная терраса',
-                area: '85 м²',
+                image: 'https://cdn.poehali.dev/projects/ad33fd48-d711-46bf-972d-edf7f51b4706/files/902d9a11-1286-4f79-ba59-7d24db96cac1.jpg',
+                title: 'Производственный комплекс',
+                area: '8 500 м²',
                 location: 'Москва',
-                color: 'Тёмный орех',
+                type: 'Плоская кровля',
               },
               {
-                image: 'https://cdn.poehali.dev/projects/ad33fd48-d711-46bf-972d-edf7f51b4706/files/dc15e787-2d13-435d-9c6a-b23ca1a11dd5.jpg',
-                title: 'Загородный дом',
-                area: '120 м²',
-                location: 'Подмосковье',
-                color: 'Натуральный дуб',
-              },
-              {
-                image: 'https://cdn.poehali.dev/projects/ad33fd48-d711-46bf-972d-edf7f51b4706/files/c378fbf4-71ec-4b60-bf2b-9d548d90dcb2.jpg',
-                title: 'Ресторан на крыше',
-                area: '200 м²',
+                image: 'https://cdn.poehali.dev/projects/ad33fd48-d711-46bf-972d-edf7f51b4706/files/a2a809d9-7430-4750-927c-41d7b21409e5.jpg',
+                title: 'Торговый центр',
+                area: '12 000 м²',
                 location: 'Санкт-Петербург',
-                color: 'Венге',
+                type: 'Эксплуатируемая кровля',
+              },
+              {
+                image: 'https://cdn.poehali.dev/projects/ad33fd48-d711-46bf-972d-edf7f51b4706/files/9377ded3-8543-432a-b46d-c158ac7d6cbf.jpg',
+                title: 'Логистический центр',
+                area: '15 000 м²',
+                location: 'Екатеринбург',
+                type: 'Балластная кровля',
               },
             ].map((project, index) => (
               <Card key={index} className="overflow-hidden group border-none shadow-lg hover:shadow-2xl transition-all">
@@ -351,8 +351,8 @@ const Index = () => {
                 </div>
                 <CardContent className="pt-4">
                   <div className="flex items-center gap-2">
-                    <div className="w-4 h-4 bg-primary rounded-full"></div>
-                    <span className="text-sm text-muted-foreground">Цвет: {project.color}</span>
+                    <Icon name="Layers" size={16} className="text-primary" />
+                    <span className="text-sm text-muted-foreground">{project.type}</span>
                   </div>
                 </CardContent>
               </Card>
@@ -366,50 +366,50 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Цены и комплектация</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Прозрачное ценообразование. В стоимость включены материал, система крепления и монтаж
+              Прозрачное ценообразование. В стоимость включены материалы, доставка и монтаж
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
                 name: 'Базовый',
-                price: '3 200',
+                price: '850',
                 features: [
-                  'Доска Attikka Classic 25 мм',
-                  'Алюминиевые лаги',
-                  'Скрытый крепёж',
-                  'Монтаж под ключ',
-                  'Гарантия 15 лет',
+                  'Attikka Standard (стеклохолст)',
+                  'Толщина 3,0 мм',
+                  'Монтаж наплавлением',
+                  'Подготовка основания',
+                  'Гарантия 10 лет',
                 ],
-                description: 'Для небольших террас и балконов',
+                description: 'Для небольших объектов',
               },
               {
-                name: 'Стандарт',
-                price: '4 500',
+                name: 'Оптимальный',
+                price: '1 250',
                 features: [
-                  'Доска Attikka Premium 30 мм',
-                  'Композитные лаги',
-                  'Скрытый крепёж Premium',
-                  'Монтаж с подготовкой основания',
-                  'Гарантия 20 лет',
-                  'Сервисное обслуживание',
+                  'Attikka Premium (полиэстер)',
+                  'Толщина 4,0 мм',
+                  'Двухслойная укладка',
+                  'Пароизоляция',
+                  'Гарантия 15 лет',
+                  'Техническая поддержка',
                 ],
                 description: 'Оптимальный выбор для большинства проектов',
                 popular: true,
               },
               {
                 name: 'Премиум',
-                price: '6 800',
+                price: '1 850',
                 features: [
-                  'Доска Attikka Ultra 35 мм',
-                  'Композитные лаги усиленные',
-                  'Система крепления из нержавейки',
-                  'Полный комплекс работ',
-                  'Гарантия 25 лет',
-                  'Персональный менеджер',
-                  'Обслуживание 5 лет',
+                  'Attikka Ultra (армированный)',
+                  'Толщина 5,0 мм',
+                  'Многослойная система',
+                  'Утепление + пароизоляция',
+                  'Гарантия 20 лет',
+                  'Сервисное обслуживание',
+                  'Аварийный выезд 24/7',
                 ],
-                description: 'Для коммерческих объектов и больших площадей',
+                description: 'Для крупных коммерческих объектов',
               },
             ].map((plan, index) => (
               <Card
@@ -419,7 +419,7 @@ const Index = () => {
                 {plan.popular && (
                   <div className="absolute -top-4 left-1/2 -translate-x-1/2">
                     <span className="bg-accent text-accent-foreground px-6 py-2 rounded-full text-sm font-bold shadow-lg">
-                      Хит продаж
+                      Популярный выбор
                     </span>
                   </div>
                 )}
@@ -455,7 +455,7 @@ const Index = () => {
           </div>
           <div className="mt-12 text-center">
             <p className="text-muted-foreground mb-4">
-              * Цена указана за 1 м² с учётом материалов и работы. Точная стоимость рассчитывается после замера.
+              * Цена указана за 1 м² с учётом материалов и работы. Точная стоимость рассчитывается после осмотра объекта.
             </p>
             <Button variant="link" className="text-primary">
               <Icon name="Download" size={18} className="mr-2" />
@@ -471,7 +471,7 @@ const Index = () => {
             <div>
               <h2 className="text-4xl font-bold mb-4">Получите бесплатную консультацию</h2>
               <p className="text-muted-foreground mb-8 text-lg">
-                Оставьте заявку, и мы рассчитаем стоимость вашего проекта, привезём образцы материала и ответим на все вопросы
+                Оставьте заявку, и мы рассчитаем стоимость гидроизоляции вашей кровли, проведём техническую экспертизу и ответим на все вопросы
               </p>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
@@ -510,7 +510,7 @@ const Index = () => {
                   <Textarea
                     id="message"
                     rows={4}
-                    placeholder="Расскажите о вашем проекте: площадь, назначение, пожелания по цвету..."
+                    placeholder="Опишите ваш объект: площадь кровли, тип здания, текущее состояние..."
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   />
@@ -538,7 +538,7 @@ const Index = () => {
                       <p className="font-semibold mb-1 text-lg">Телефон</p>
                       <p className="text-muted-foreground mb-1">+7 (495) 789-00-55</p>
                       <p className="text-muted-foreground">+7 (800) 200-10-90 (бесплатно)</p>
-                      <p className="text-sm text-muted-foreground mt-2">Пн-Вс: 9:00 — 21:00</p>
+                      <p className="text-sm text-muted-foreground mt-2">Пн-Вс: 8:00 — 20:00</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -556,13 +556,13 @@ const Index = () => {
                       <Icon name="MapPin" size={22} className="text-primary" />
                     </div>
                     <div>
-                      <p className="font-semibold mb-1 text-lg">Шоурум и склад</p>
+                      <p className="font-semibold mb-1 text-lg">Офис и склад</p>
                       <p className="text-muted-foreground">
                         г. Москва, Волоколамское шоссе, д. 73, стр. 1
                       </p>
                       <p className="text-sm text-muted-foreground mt-2">
-                        Пн-Пт: 9:00-19:00<br />
-                        Сб-Вс: 10:00-18:00
+                        Пн-Пт: 8:00-19:00<br />
+                        Сб: 10:00-16:00
                       </p>
                     </div>
                   </div>
@@ -571,11 +571,11 @@ const Index = () => {
               <Card className="border-none shadow-lg bg-accent/5">
                 <CardContent className="pt-6">
                   <div className="flex items-start gap-4">
-                    <Icon name="Gift" size={32} className="text-accent flex-shrink-0" />
+                    <Icon name="Truck" size={32} className="text-accent flex-shrink-0" />
                     <div>
-                      <h3 className="font-bold text-lg mb-2">Бесплатные образцы</h3>
+                      <h3 className="font-bold text-lg mb-2">Бесплатная доставка</h3>
                       <p className="text-sm text-muted-foreground">
-                        Привезём образцы всех цветов к вам на объект. Поможем выбрать идеальный оттенок.
+                        Доставим материалы на ваш объект по Москве и области. При заказе от 1000 м² — доставка по России бесплатно.
                       </p>
                     </div>
                   </div>
@@ -592,7 +592,7 @@ const Index = () => {
             <div>
               <h3 className="text-2xl font-bold mb-4">Attikka</h3>
               <p className="text-primary-foreground/80 text-sm leading-relaxed">
-                Премиальный WPC декинг для террас, балконов и кровель. Красота дерева без его недостатков.
+                Профессиональная гидроизоляция кровли для промышленных, коммерческих и жилых объектов.
               </p>
             </div>
             <div>
@@ -631,7 +631,7 @@ const Index = () => {
           </div>
           <div className="border-t border-primary-foreground/20 pt-8 text-center">
             <p className="text-sm text-primary-foreground/70">
-              © 2024 Attikka WPC. Все права защищены. ИНН: 7712345678 | ОГРН: 1127746123456
+              © 2024 Attikka. Все права защищены. ИНН: 7712345678 | ОГРН: 1127746123456
             </p>
           </div>
         </div>
